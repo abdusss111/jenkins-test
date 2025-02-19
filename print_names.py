@@ -1,2 +1,2 @@
-print("Abdussalam")
-print("Adurakhimov")
+names = sys.argv
+print(*names)
