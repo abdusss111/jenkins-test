@@ -5,8 +5,8 @@ def main():
         print("Usage: python names_cli.py name1 name2 ...")
         return
 
-    names = sys.argv[1:]  # Get all command-line arguments except the script name
-    print("Names entered:", ", ".join(names))
+    for name in sys.argv[1:]:
+        print(name)
 
 if __name__ == "__main__":
     main()
